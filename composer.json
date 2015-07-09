@@ -17,14 +17,14 @@
         "php": ">=5.3.3",
         "symfony/symfony": "~2.5",
         "webfactory/piwik-bundle": "~2.0",
-        "rz/block-bundle": "1.2.*"
+        "rz/block-bundle": "1.2.1.*"
     },
     "autoload": {
         "psr-4": { "Rz\\RzPiwikBundle\\": "" }
     },
     "extra": {
       "branch-alias": {
-        "dev-master": "1.0.x-dev"
+        "dev-1.0.0": "1.0.0.x-dev"
       }
     }
 }
