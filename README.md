@@ -1,5 +1,5 @@
-UserSecurityBundle
-==================
+PiwikBundle
+===========
 
 Extension for webfactory/piwik-bundle
 
