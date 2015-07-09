@@ -20,7 +20,7 @@
         "rz/block-bundle": "1.2.*"
     },
     "autoload": {
-        "psr-4": { "Rz\\RzPiwikBundle\\": "" }
+        "psr-4": { "Rz\\PiwikBundle\\": "" }
     },
     "extra": {
       "branch-alias": {
