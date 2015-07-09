@@ -6,6 +6,6 @@ Extension for webfactory/piwik-bundle
 Version
 -------
 
-**STABLE VERSION**
+**DEVELOPMENT VERSION**
 
 Back to: [rzproject](http://rzproject.github.io)
