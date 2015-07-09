@@ -1,0 +1,30 @@
+{
+    "name": "rz/piwik-bundle",
+    "description": "Extension of webfactory/piwik-bundle",
+    "keywords": ["analytics", "piwik", "Rz Project"],
+    "homepage": "http://github.com/rzproject/RzPiwikBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mell M. Zamora",
+            "email": "mell@rzproject.org",
+            "homepage": "http://www.rzproject.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.5",
+        "webfactory/piwik-bundle": "~2.0",
+        "rz/block-bundle": "1.2.*"
+    },
+    "autoload": {
+        "psr-4": { "Rz\\RzPiwikBundle\\": "" }
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-master": "1.0.x-dev"
+      }
+    }
+}

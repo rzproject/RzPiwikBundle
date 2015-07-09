@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="rz_piwik.block.piwik_widget.class">Rz\PiwikBundle\Block\PiwikWidgetBlockService</parameter>
+    </parameters>
+
+    <services>
+        <service id="rz_piwik.block.piwik_widget" class="%rz_piwik.block.piwik_widget.class%" scope="prototype">
+            <tag name="sonata.block"/>
+            <argument>rz_piwik.block.piwik_widget</argument>
+            <argument type="service" id="templating" />
+        </service>
+    </services>
+</container>

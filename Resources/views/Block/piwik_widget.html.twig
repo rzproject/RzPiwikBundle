@@ -1,0 +1,17 @@
+{% extends sonata_block.templates.block_base %}
+
+{% block block %}
+	{% if context.getSetting('mode') == 'admin' %}
+		<div class="box box-color box-bordered green">
+			<div class="box-title">
+				<h3>
+					<i class="icon-table"></i>
+					{% if settings.title %}<h3 class="sonata-news-block-recent-post">{{ settings.title }}</h3>{% endif %}
+				</h3>
+			</div>
+			<div class="box-content">
+				{{ settings.widgetCode | raw }}
+			</div>
+		</div>
+	{% endif %}
+{% endblock %}
